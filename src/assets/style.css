@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html,
+* {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.kk_bg_login {
+  background-image: url('./images/bg_login.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.kk_card {
+  position: absolute;
+  width: 269px;
+  height: 262px;
+  left: 58px;
+  top: 140px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+.kk_card_header {
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 auto;
+  letter-spacing: 0.18em;
+  color: #ffffff;
+}
+.kk_card_body {
+  position: absolute;
+  width: 194px;
+  height: 132px;
+  left: 36px;
+  top: 70px;
+  background: #303030;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.kk_card_body .row:first-child label {
+  position: absolute;
+  width: 39px;
+  left: 8px;
+  top: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 0%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.195em;
+  color: #ffffff;
+}
+.kk_card_body .row:first-child input {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  left: 15px;
+  top: 30px;
+  background: #fff5f5;
+  border-radius: 5px;
+}
+.kk_card_body .row:last-child label {
+  position: absolute;
+  left: 8px;
+  top: 70px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 0%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.195em;
+  color: #ffffff;
+}
+.kk_card_body .row:last-child input {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  left: 15px;
+  top: 85px;
+  background: #fff5f5;
+  border-radius: 5px;
+}
+.submit-btn button {
+  position: relative;
+  top: 170px;
+}
